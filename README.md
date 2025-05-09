@@ -119,12 +119,3 @@
 | students        | applications     | one-to-many     | Satu mahasiswa bisa melamar ke banyak lowongan|
 | internships     | applications     | one-to-many     | Satu lowongan bisa menerima banyak lamaran  |
 | students        | saved_internships| many-to-many    | Banyak mahasiswa bisa menyimpan banyak lowongan|
-
-## 🛠 Cara Instalasi
-
-1. Clone repository
-2. Jalankan `composer install`
-3. Buat file `.env` dan sesuaikan dengan konfigurasi database
-4. Jalankan migrasi: `php artisan migrate`
-5. Jalankan seeder (jika ada): `php artisan db:seed`
-6. Jalankan server: `php artisan serve`
